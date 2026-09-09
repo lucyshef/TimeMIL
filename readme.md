@@ -18,6 +18,14 @@ Paper link (preprint): [https://arxiv.org/abs/2405.03140]
 
 
 ## Dependencies
+** Lucy's note: NB I have to install python 3.8 from the deadsnakes PPA with:
+```
+sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt-get update
+sudo apt-get install python3.5
+```
+and then manually install the distutils using 
+`sudo apt update && sudo apt install python3.8-distutils python3.8-venv`
 ```
 aeon                      0.5.0
 numpy                     1.23.1
